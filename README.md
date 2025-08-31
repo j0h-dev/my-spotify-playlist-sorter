@@ -1,6 +1,12 @@
-# Spotify playlist sorter
+# Spotify playlist sorter (Archived)
 
 ![image](./github/my-spotify-playlist-sorter.png)
+
+## Repository status
+
+An active version can be found [here](https://github.com/j0h-dev/my-spotify-playlist-sorter-go). It is written in Go.
+
+## Overview
 
 This script sorts your spotify playlist.
 
@@ -41,7 +47,7 @@ For some guidance on how to use pm2, see [this](https://pm2.keymetrics.io/docs/u
 
 ### Get started
 
-Create a config.json file where the executable is.  
+Create a config.json file where the executable is.
 Insert the spotify client id and secret like this:
 
 ```json
@@ -51,10 +57,10 @@ Insert the spotify client id and secret like this:
 }
 ```
 
-Install dependencies by running this command  
+Install dependencies by running this command
 <code>pip install -r requirements.txt</code>
 
-Start the script by running  
+Start the script by running
 <code>python ./src/main.py</code>
 
 ---
